@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="../css/contact.css">
+    <title>Imagem com Mensagem</title>
+    <script>
+        function mostrarMensagem() {
+            alert("Meu telefone é: 3499341-3905");
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+        <img src="../images/Chikago.png" alt="logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="../index.html">Início</a></li>
+                <li><a href="../pages/about.html">Sobre mim</a></li>
+                <li><a href="../pages/services.html">Experiência</a></li>
+                <li><a href="../pages/portfolio.html">Portfólio</a></li>
+                <li><a href="../pages/contact.html">Contatos</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+
+
+    <section class="contact">
+        <div class="contato">
+            <h2>Contato</h2>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome">
+                
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email">
+                
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem"></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+        <div class="redes-sociais">
+            <h3>Minhas Redes:</h3>
+            <a href="javascript:void(0);" onclick="mostrarMensagem()">
+                <img src="../images/whatsapp.png" alt="Social">
+            </a>
+        
+            <a href="https://github.com/ChikagoZY" target=”_blank”>
+                <img src="../images/social.png" alt="Social">
+            </a>
+        
+        
+            <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSMTRpJLRMNpvGWLjNxJgWBJCKVXkmHnQqpJBCmNJVSMcPtcnvmnzNdxdcFDVCqZFnMSNCxL" target=”_blank”>
+                <img src="../images/gmail.png" alt="Social">
+            </a>
+        </div>
+        </section>
+    </section>
+
+
+    <footer>
+        <div class="footer">
+            <p>&copy; © Feito em 2024 Por Chikago. Todos os direitos reservados.</p>
+
+        </div>
+    </footer>
+</body>
+</html>
